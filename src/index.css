@@ -3,7 +3,6 @@ body {
     Arial, sans-serif;
   margin: auto;
   max-width: 38rem;
-  padding: 2rem;
 }
 
 .container {
@@ -22,4 +21,16 @@ body {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+
+#gameMessage {
+  visibility: hidden;
+}
+
+#gameboard {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  position: absolute;
+  display: none;
 }
