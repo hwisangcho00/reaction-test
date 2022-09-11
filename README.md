@@ -1,4 +1,4 @@
-# quickness-test
+# reaction-test
 
 Desktop application made with Electron that records your reaction time.
 
